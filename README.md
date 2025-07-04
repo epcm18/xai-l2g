@@ -31,7 +31,6 @@ The primary goals of this project are as follows:
 **Apply SHAP:** Use SHAP (SHapley Additive exPlanations) to identify which features (e.g., colocalization, QTL, genomic distance) have the most impact on the L2G gene prioritization score[.
 **Implement LIME:** Use LIME (Local Interpretable Model-agnostic Explanations) to generate simple, local explanations for why a specific gene was prioritized for a particular disease.
 **Generate Counterfactuals:** Create counterfactual explanations to show the smallest feature changes that would alter a gene's ranking, providing actionable insights for researchers.
-**Develop a Dashboard:** Design and build an interactive dashboard to present the SHAP, LIME, and counterfactual results in an accessible and user-friendly format.
 
 ---
 
@@ -49,7 +48,7 @@ This phase focuses on applying a suite of XAI techniques to explain the model's 
 **Actionable Counterfactual Insights:** **Counterfactual Explanations** are generated to provide "what-if" scenarios, showing what minimal changes would alter a prediction.
 
 ### Phase 3: Synthesizing Explanations for User Interpretation
-The final phase focuses on making the generated explanations accessible. A **Visualization and Interpretability Dashboard** is designed to present the complex outputs from the XAI analyses in an integrated and intuitive user interface.
+The final phase focuses on making the generated explanations accessible. A **Visualization and Interpretability Plots** is designed to present the complex outputs from the XAI analyses in an integrated and intuitive user interface.
 
 ---
 
